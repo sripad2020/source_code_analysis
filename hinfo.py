@@ -2,11 +2,10 @@ from googlesearch import search
 import re,requests,heapq,nltk
 from bs4 import BeautifulSoup
 from transformers import pipeline
-fopen=open('hotel.py','r')
+fopen=open('give the absolute/relative path of file location....','r')
 read=fopen.readlines()
 print(f'The file contains {len(read)} lines...')
-minus=len(read)-1
-print(f'The line starting from 0 to {minus}')
+print(f'The line starting from 0 to {minus=len(read)-1}')
 print('-------------------------------------------')
 er='error'
 for i in range(len(read)):
